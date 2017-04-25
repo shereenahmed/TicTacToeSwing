@@ -1,4 +1,5 @@
 package TicTacToe;
+<<<<<<< HEAD
 import java.awt.Color;
 import java.awt.GridLayout;
 import java.awt.event.ActionListener;
@@ -9,6 +10,20 @@ import javax.swing.JPanel;
 
 	private JPanel panel = new JPanel();
     static GameButton button[] = new GameButton[9];
+=======
+
+import java.awt.Color;
+import java.awt.GridLayout;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class View extends JFrame {
+
+	private JPanel panel = new JPanel();
+	private GameButton button[] = new GameButton[9];
+>>>>>>> 3842822d9a3fa8cc65654f9d3cdcc41615acbeb9
 	
 
 	public GameButton[] getButton() {
@@ -23,15 +38,22 @@ import javax.swing.JPanel;
 		super("TicTacToe");
 		Init(action);
 	}
+<<<<<<< HEAD
 	
 	public View() {
 	}
+=======
+>>>>>>> 3842822d9a3fa8cc65654f9d3cdcc41615acbeb9
 
 	public void Init(ActionListener action) {
 		setSize(500, 500);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		panel.setLayout(new GridLayout(3, 3));
 		
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 3842822d9a3fa8cc65654f9d3cdcc41615acbeb9
 		for (int i = 0; i < button.length; i++) {
 			button[i] = new GameButton();
 			button[i].addActionListener(action);
