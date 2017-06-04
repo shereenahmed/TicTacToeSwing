@@ -1,4 +1,4 @@
-package TicTacToe;
+package com.shereen.tic;
 import java.util.Observable;
 
 import javax.swing.ImageIcon;

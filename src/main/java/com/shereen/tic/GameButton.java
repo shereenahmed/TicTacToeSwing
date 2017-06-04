@@ -1,8 +1,5 @@
-package TicTacToe;
-<<<<<<< HEAD
-=======
+package com.shereen.tic;
 
->>>>>>> 3842822d9a3fa8cc65654f9d3cdcc41615acbeb9
 import javax.swing.JButton;
 
 public class GameButton extends JButton {

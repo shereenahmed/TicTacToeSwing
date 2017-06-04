@@ -1,4 +1,4 @@
-package TicTacToe;
+package com.shereen.tic;
 import javax.swing.JButton;
 
 import java.awt.Button;
